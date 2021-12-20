@@ -11,7 +11,7 @@ module.exports = new Command({
             .setTitle("Help")
             .setDescription("Learn how to use Vanilla Ice Cream! Prefix is ic!")
             .setColor("#4e06dd")
-            .setThumbnail("https://cdn.discordapp.com/app-icons/914321685509971989/47e31d19eff886c831157578639ed713.png?size=256")
+            .setThumbnail("https://cdn.discordapp.com/attachments/754152681689579612/922277477706002503/icsmp.png")
             .setTimestamp()
 
             fs.readdirSync("./src/Commands")

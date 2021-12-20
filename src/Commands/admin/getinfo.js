@@ -8,7 +8,6 @@ module.exports = new Command({
 
     async run(message, args, client){
         if(message.author != "573248130389114880"){return;}
-        const result = null;
 
         const options = {
             timeout: 1000 * 5,
