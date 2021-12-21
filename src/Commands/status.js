@@ -21,7 +21,7 @@ module.exports = new Command({
                 .addField('Server Version:', response.version.name + " ")
                 .addField('Player Count', `${response.players.online} / ${response.players.max}`)
                 .setTimestamp()
-                .setThumbnail("https://cdn.discordapp.com/attachments/754152681689579612/922277477706002503/icsmp.png")
+                .setThumbnail("https://api.mcsrvstat.us/icon/104.50.5.63:25590")
 
             message.channel.send({embeds: [embed]});
         }).catch(err => {
@@ -30,7 +30,6 @@ module.exports = new Command({
                 .setTitle("Server Status: Offline :red_circle:")
                 .setColor("#fc0f13")
                 .setDescription("Either the server is down, or the bot broke. Either way... Maxb0tbeep needs to fix it :( \n\n(He's already pinged you don't need to ping him more)")
-                .setThumbnail("https://cdn.discordapp.com/attachments/754152681689579612/922277477706002503/icsmp.png")
                 .setTimestamp()
 
             message.reply({embeds: [errorEmbed]})
