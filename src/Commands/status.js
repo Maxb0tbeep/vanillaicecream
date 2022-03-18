@@ -29,7 +29,7 @@ module.exports = new Command({
             const errorEmbed = new Discord.MessageEmbed()
                 .setTitle("Server Status: Offline :red_circle:")
                 .setColor("#fc0f13")
-                .setDescription("Either the server is down, or the bot broke. Either way... Maxb0tbeep needs to fix it :( \n\n(He's already pinged you don't need to ping him more)")
+                .setDescription("Either the server is down, or the bot broke. Either way... Max needs to fix it :( \n\n(He's already pinged you don't need to ping him more)")
                 .setTimestamp()
 
             message.reply({embeds: [errorEmbed]})
